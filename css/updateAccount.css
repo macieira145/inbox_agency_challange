@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+.content-color-primary {
+  color: #006cbf !important;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.root-light {
+  --background-color: #f1f1f1;
+  --text-color: black;
+  --card-background: #ffffff;
+}
+.root-dark {
+  --background-color: #121212;
+  --text-color: white;
+  --card-background: #1f1f1f;
+}
+.section-title {
+  margin: 2rem;
+  font-weight: 900;
+}
+.title {
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.image-holder {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: rgba(0, 108, 191, 0.5) 0px 0px 12px 3px;
+}
+input {
+  background-color: var(--card-background) !important;
+  color: var(--text-color) !important;
+}
+.input-group-text {
+  background-color: var(--card-background) !important;
+  color: var(--text-color) !important;
+}
